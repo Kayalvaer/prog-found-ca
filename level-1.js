@@ -57,6 +57,13 @@ if (i === 20){
     console.log(counter[i]);
 }
 
+//OR
+
+if (counter === 20) {
+    console.log(20);
+}else {
+    console.log(i);
+}
 
 
 // question 7

@@ -52,9 +52,7 @@ for (var i = 15; i <= 25; i++) {
     console.log[i];
 }
 if (i === 20){
-    console.log(i)
-}else {
-    console.log(counter[i]);
+    console.log(i);
 }
 
 

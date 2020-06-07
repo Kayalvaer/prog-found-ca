@@ -27,7 +27,7 @@ if (outOfStock === true) {
 // question 4
 
 // Answer for question 4
-var numberArray[1, 2, 3, 4, 5];
+var numberArray = [1, 2, 3, 4, 5];
     console.log(numberArray);
 
 for (var i = 0; i < numberArray.length; i++) {
@@ -57,21 +57,20 @@ if (i === 20){
     console.log(counter[i]);
 }
 
-//OR
-
-if (counter === 20) {
-    console.log(20);
-}else {
-    console.log(i);
-}
 
 
 // question 7
 
 // Answer for question 7
 var countries = [
-    {name: "Botswana", population: 2.2, isLargerSize:false}
-    {name: "Norway", population: 5.3, isLargeSize:true}
+    {
+        name: "Botswana", 
+        population: 2.2, 
+        isLargerSize:false},
+    {
+        name: "Norway", 
+        population: 5.3, 
+        isLargeSize:true}
 ];
 
 for (var i = 0; i < countries.length; i++) {
@@ -83,9 +82,9 @@ for (var i = 0; i < countries.length; i++) {
 
 // Answer for question 8
 function whatIDontLike(realLies) {
-    console.log ("i don´t like" + realLies);
+    console.log ("i don´t like " + realLies);
 }
-whatIDontLike("lies")
+whatIDontLike("lies");
 
 // question 9
 
@@ -100,7 +99,7 @@ contResult(50, 130);
 
 // Answer for question 10
 var foodItem = [ ];
-var foodItem(theFood) {
+function foodItem(theFood) {
     console.log(theFood);
 }
 logToConsole("pasta");
